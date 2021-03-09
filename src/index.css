@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.botonera {
+  background-color: #90a081;
+}
+
+.recuadro {
+  background-color: #1e1e1e;
+
+  font-size: 14px;
+  height: 550px;
+  max-height: 90%;
+  width: 90%;
+
+}
+
+.boton {
+  display: block;
+  width: 100%;
+}
+
+li {
+  margin-top: 20px;
+}
+
+.recuadro pre {
+  color: #18ad79;
+}
+
+.container-console {
+  background-color: #f1ac7b;
+}
