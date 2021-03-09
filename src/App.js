@@ -1,72 +1,70 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import equipos from "./equipos";
 
 function App() {
   return (
-    <Container fluid>
+    <Container as="body" fluid>
       <Row className="d-flex flex-row vh-100 p-0 m-0">
         <Col xs={8} className="botonera">
           <Row className="align-content-center align-items-start list-unstyled">
             <Col as="li" xs={4} lg={3}>
-              <button className="boton gt30 btn-block btn btn-lg btn-warning border-none rounded">Equipos
-            asignados a mayores de 30</button>
+              <Button variant="warning" size="lg" className="boton gt30 btn-block border-none rounded">Equipos
+            asignados a mayores de 30</Button>
             </Col>
             <Col as="li" xs={4} lg={3}>
-              <button className="boton tarragona btn btn-lg btn-warning border-none rounded">Equipos
-            asignados a personas de Tarragona</button>
+              <Button variant="warning" size="lg" className="boton tarragona border-none rounded">Equipos
+            asignados a personas de Tarragona</Button>
             </Col>
             <Col as="li" xs={4} lg={3}>
-              <button className="boton provincias btn btn-lg btn-warning border-none rounded">Provincias
-            donde hay equipos</button>
+              <Button variant="warning" size="lg" className="boton provincias border-none rounded">Provincias
+            donde hay equipos</Button>
             </Col>
             <Col as="li" xs={4} lg={3}>
-              <button className="boton puestos btn btn-lg btn-warning border-none rounded">Puestos
+              <Button variant="warning" size="lg" className="boton puestos border-none rounded">Puestos
               de
               trabajadores con
-            equipo</button>
+            equipo</Button>
             </Col>
             <Col as="li" xs={4} lg={3}>
-              <button className="boton edad-media btn btn-lg btn-warning border-none rounded">Media
+              <Button variant="warning" size="lg" className="boton edad-media border-none rounded">Media
               de
               edad
               de
-            trabajadores</button>
+            trabajadores</Button>
             </Col>
             <Col as="li" xs={4} lg={3}>
-              <button className="boton orden-edad btn btn-lg btn-warning border-none rounded">Equipos
+              <Button variant="warning" size="lg" className="boton orden-edad border-none rounded">Equipos
               ordenados por
-            edad</button>
+            edad</Button>
             </Col>
             <Col as="li" xs={4} lg={3}>
-              <button className="boton sobremesa btn btn-lg btn-warning border-none rounded">Equipos
+              <Button variant="warning" size="lg" className="boton sobremesa border-none rounded">Equipos
               de
               tipo
-            sobremesa</button>
+            sobremesa</Button>
             </Col>
             <Col as="li" xs={4} lg={3}>
-              <button
-                className="boton trabajadores-portatil btn btn-lg btn-warning border-none rounded">Trabajadores
-                con equipo
-            portatil</button>
+              <Button variant="warning" size="lg" className="boton trabajadores-portatil border-none rounded">Trabajadores
+              con equipo
+            portatil</Button>
             </Col>
             <Col as="li" xs={4} lg={3}>
-              <button className="boton equipos-tipo btn btn-lg btn-warning border-none rounded">Equipos
+              <Button variant="warning" size="lg" className="boton equipos-tipo border-none rounded">Equipos
               organizados por
-            tipo</button>
+            tipo</Button>
             </Col>
             <Col as="li" xs={4} lg={3}>
-              <button
-                className="boton portatiles-tarragona btn btn-lg btn-warning border-none rounded">Equipos
-                portatiles
-                asignados
-                en
-            Tarragona</button>
+              <Button variant="warning" size="lg" className="boton portatiles-tarragona border-none rounded">Equipos
+              portatiles
+              asignados
+              en
+            Tarragona</Button>
             </Col>
             <Col as="li" xs={4} lg={3}>
-              <button className="boton resumen btn btn-lg btn-warning border-none rounded">Resumen
+              <Button variant="warning" size="lg" className="boton resumen border-none rounded">Resumen
               de
               equipos
-            asignados</button>
+            asignados</Button>
             </Col>
           </Row>
         </Col>
