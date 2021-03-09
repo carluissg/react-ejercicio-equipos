@@ -3,7 +3,7 @@ import equipos from "./equipos";
 
 function App() {
   return (
-    <Container as="body" fluid>
+    <Container fluid>
       <Row className="d-flex flex-row vh-100 p-0 m-0">
         <Col xs={8} className="botonera">
           <Row className="align-content-center align-items-start list-unstyled">
